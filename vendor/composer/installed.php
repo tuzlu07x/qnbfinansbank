@@ -3,7 +3,7 @@
         'name' => 'muhittingulap/qnbfinansbank',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '5b486eb2d4e9a4ad2531b547050920872a011e28',
+        'reference' => 'f14dca04ef62a06b4eb98e9dc6982f6c9b2dcb04',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'muhittingulap/qnbfinansbank' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '5b486eb2d4e9a4ad2531b547050920872a011e28',
+            'reference' => 'f14dca04ef62a06b4eb98e9dc6982f6c9b2dcb04',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
