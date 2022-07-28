@@ -20,7 +20,7 @@ Dokümantasyon dosyalarına ulaşmak için [tıklayınız.](https://www.qnbefina
 
 ## Kurulum
 
-    $ composer require fatihtuzlu/qnbfinansbank
+     composer require fatihtuzlu/qnbfinansbank
  
 ## Projenizde Kullanma
 ```php
