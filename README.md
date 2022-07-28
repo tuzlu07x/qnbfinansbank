@@ -15,6 +15,8 @@
 
 QNB Finansbank web servisleri için PHP ile yazılmış olan bu kütüphane ile E-Arşiv, E-Fatura bildirim işlemlerini yapabilirsiniz.
 
+Bu paket katkıda bulunmak için forklanıp düzenlenmiştir.
+
 ## Dokümantasyon (QNB FinansBank)
 Dokümantasyon dosyalarına ulaşmak için [tıklayınız.](https://www.qnbefinans.com/tr/e-donusum-bilgi-merkezi/api-teknik)
 
