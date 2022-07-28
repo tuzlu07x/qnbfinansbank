@@ -1,8 +1,8 @@
 {
-  "name": "muhittingulap/qnbfinansbank",
+  "name": "fatihtuzlu/qnbfinansbank",
   "license": "MIT",
   "type": "library",
-  "homepage": "https://github.com/muhittingulap/qnbfinansbank",
+  "homepage": "https://github.com/tuzlu07x/qnbfinansbank",
   "keywords": [
     "efatura",
     "earşiv",
@@ -27,8 +27,8 @@
   },
   "authors": [
     {
-      "name": "Muhittin GÜLAP",
-      "email": "gulapmuhittin@gmail.com",
+      "name": "Fatih TUZLU",
+      "email": "fatihtuzlu07@gmail.com",
       "role": "Developer"
     }
   ],
