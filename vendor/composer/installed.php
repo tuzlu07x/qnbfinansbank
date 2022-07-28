@@ -3,7 +3,7 @@
         'name' => 'fatihtuzlu/qnbfinansbank',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'cf2df2537b321014235a6fc48723f8539ea9b01a',
+        'reference' => 'f90cc6301b02e4e57642b69596e7baf8259eeed9',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'fatihtuzlu/qnbfinansbank' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'cf2df2537b321014235a6fc48723f8539ea9b01a',
+            'reference' => 'f90cc6301b02e4e57642b69596e7baf8259eeed9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
