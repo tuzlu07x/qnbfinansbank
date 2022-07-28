@@ -1,5 +1,5 @@
 {
-  "name": "fatihtuzlu/qnbfinansbank",
+  "name": "fatihtuzlu/qnbfinansbankapi",
   "license": "MIT",
   "type": "library",
   "homepage": "https://github.com/tuzlu07x/qnbfinansbank",
@@ -9,7 +9,8 @@
     "qnb",
     "finansbank",
     "php",
-    "api"
+    "api",
+    "qnb finansbank api"
   ],
   "description": "QNB Finansbank E-Fatura ve E-Arşiv PHP Api",
   "autoload": {

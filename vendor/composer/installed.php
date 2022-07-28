@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'fatihtuzlu/qnbfinansbank',
+        'name' => 'fatihtuzlu/qnbfinansbankapi',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'f90cc6301b02e4e57642b69596e7baf8259eeed9',
+        'reference' => '0e6c54f2610667539fc7af02b3643957a1f72a89',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'fatihtuzlu/qnbfinansbank' => array(
+        'fatihtuzlu/qnbfinansbankapi' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'f90cc6301b02e4e57642b69596e7baf8259eeed9',
+            'reference' => '0e6c54f2610667539fc7af02b3643957a1f72a89',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
