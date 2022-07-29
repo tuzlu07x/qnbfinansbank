@@ -3,6 +3,7 @@
 
 namespace EFINANS\Component;
 
+use Illuminate\Support\Str;
 
 class data
 {
@@ -11,7 +12,6 @@ class data
 
     public function __construct()
     {
-
     }
 
     public function setStartData($veri = array())
@@ -20,9 +20,9 @@ class data
             "cbc:UBLVersionID" => "2.1",
             "cbc:CustomizationID" => "TR1.2",
             "cbc:ProfileID" => $veri["ProfileID"],
-            "cbc:ID" => ($veri["ID"]?$veri["ID"]:""),
+            "cbc:ID" => ($veri["ID"] ? $veri["ID"] : ""),
             "cbc:CopyIndicator" => "false",
-            "cbc:UUID" => ($veri["UUID"]?$veri["UUID"]:$this->getUuid()),
+            "cbc:UUID" => ($veri["UUID"] ? $veri["UUID"] : $this->getUuid()),
             "cbc:IssueDate" => $veri["IssueDate"],
             "cbc:IssueTime" => $veri["IssueTime"],
             "cbc:InvoiceTypeCode" => ($veri["InvoiceTypeCode"] ? $veri["InvoiceTypeCode"] : "SATIS"),
@@ -139,13 +139,12 @@ class data
 
     public function getUuid($prefix = '')
     {
-        $chars = md5(uniqid(mt_rand(), true));
-        $parts = [substr($chars, 0, 8), substr($chars, 8, 4), substr($chars, 12, 4), substr($chars, 16, 4), substr($chars, 20, 12)];
-        return $prefix . implode($parts, '-');
+        $prefix = Str::uuid()->toString();
+        return $prefix;
     }
 
-    public function getFaturaNo($prefix='TRA'){
-
+    public function getFaturaNo($prefix = 'TRA')
+    {
     }
 
     public function setSupplierCustomerParty($type = "Supplier", $data = array())
@@ -329,7 +328,7 @@ class data
         return $this;
     }
 
-    public function setPerson($type="Supplier",$data = "")
+    public function setPerson($type = "Supplier", $data = "")
     {
         /*
          * Personel eklemek için
@@ -344,7 +343,7 @@ class data
          * );
          * */
 
-        $this->data["cac:Accounting".$type."Party"]["cac:Party"]["cac:Person"] = array(
+        $this->data["cac:Accounting" . $type . "Party"]["cac:Party"]["cac:Person"] = array(
             "cbc:FirstName" => $data["FirstName"],
             "cbc:FamilyName" => $data["FamilyName"],
         );
@@ -401,5 +400,4 @@ class data
     {
         return $this->data;
     }
-
 }
